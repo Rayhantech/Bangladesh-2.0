@@ -6,6 +6,14 @@
     font-style: normal;
   }
 
+
+  /* common style  */
+  .heading-title{
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(14, 14, 14, 1);
+      }
+
   /* nav section */
   nav {
     display: flex;
@@ -77,6 +85,8 @@
 
   /* main section  */
 
+  /* pillars section  */
+
   .pillars-section {
     margin:80px 160px;
   }
@@ -94,6 +104,7 @@
 
   .pillars-card-description {
     padding: 30px;
+    background-color:white;
     box-shadow:#FFFFFF;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 15px;
@@ -108,3 +119,215 @@
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
   }
+
+  /* future vision section  */
+
+  .vision-future-para{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+  .future-vision-section {
+    margin:80px 160px;
+  }
+
+  .vision {
+    display: flex;
+    gap:24px;
+    margin:32px auto;
+  }
+
+  .future-vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+
+  .future-vision1 {
+    background-color:rgba(84, 144, 245, 0.2);
+    border-radius: 15px;
+    padding: 32px;
+  }
+
+
+  .vision-btn1{
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: rgba(84, 144, 245, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: auto;
+  }
+
+
+  .future-vision2 {
+    background-color:rgba(198, 228, 214, 1);
+    border-radius: 15px;
+    padding: 32px;
+  }
+
+
+  .vision-btn2{
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: rgba(9, 161, 92, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: auto;
+  }
+
+  .future-vision3 {
+    background-color:rgba(247, 235, 207, 1);
+    border-radius: 15px;
+    padding: 32px;
+  }
+
+
+  .vision-btn3{
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: rgba(255, 194, 57, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: auto;
+  }
+
+
+/* section chief advisor  */
+
+.chief-advisor {
+    margin:80px 160px;
+    padding: 48px 24px;
+    background-color:white;
+    box-shadow:#FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:top 40px left 25px;
+}
+
+.chief-advisor-description {
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.8) ;
+    
+}
+
+.chief-advisor-name {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 0;
+}
+
+.chief-advisor-designation{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 5px;
+}
+
+/* Opinion Section  */
+.opinion-matters{
+    margin:80px 160px;
+    
+}
+
+.opinion-description{
+    padding: 48px 24px;
+    background-color:white;
+    box-shadow:#FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px 24px;
+    text-align: start;
+  }
+
+  .table-color {
+    background-color:#C6E4D6;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+ }
+
+
+ .table-button {
+    padding: 15px 30px;
+    font-weight:500;
+    font-size: 16px;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    color:#0E0E0E;
+    margin-left:25%;
+ }
+
+ /* Recent News Section  */
+
+ .recent-news{
+    margin:80px 160px;
+ }
+
+ .recent-news-description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+ }
+
+ .recent-news-container{
+    display: flex;
+    padding:48px;
+    background-color:white;
+    box-shadow:#FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    margin-bottom: 24px;
+ }
+
+ .recent-news-details{
+    margin:32px;
+ }
+
+ .recent-btn{
+    font-weight: 600;
+    font-size: 18px;
+    color:#FFFFFF;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    margin-top: auto;
+ }
+
+ .recent-news-image{
+    border-radius: 24px;
+ }
+
+ .satelite-heading{
+    font-weight: bold;
+    font-size: 32px;
+    color:rgba(14, 14, 14, 0.8); 
+ }
+
+ /* Donate section  */
+
+ .donate-section{
+    margin:80px 160px;
+    text-align: center;
+ }
+
