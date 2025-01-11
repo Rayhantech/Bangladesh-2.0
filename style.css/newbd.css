@@ -14,6 +14,12 @@
         color: rgba(14, 14, 14, 1);
       }
 
+   .h4-heading{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+   }   
+
   /* nav section */
   nav {
     display: flex;
@@ -42,6 +48,12 @@
     font-size: 18px;
     padding:15px 30px;
     border-radius:8px;
+  }
+
+  .nav-button:hover{
+    background-color: #006A50;
+    color: white;
+    transition: .7s;
   }
 
   /* banner section  */
@@ -81,6 +93,13 @@
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
+  }
+
+  .banner-button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    color: black;
+    transition: .7s;
   }
 
   /* main section  */
@@ -161,6 +180,11 @@
     margin-top: auto;
   }
 
+  .vision-btn1:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: .7s;
+  }
 
   .future-vision2 {
     background-color:rgba(198, 228, 214, 1);
@@ -180,6 +204,13 @@
     margin-top: auto;
   }
 
+  .vision-btn2:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    color: black;
+    transition: .7s;
+  }
+
   .future-vision3 {
     background-color:rgba(247, 235, 207, 1);
     border-radius: 15px;
@@ -196,6 +227,12 @@
     border: none;
     border-radius: 8px;
     margin-top: auto;
+  }
+
+  .vision-btn3:hover{
+    background-color:yellowgreen;
+    cursor: pointer;
+    transition: .7s;
   }
 
 
@@ -268,7 +305,7 @@ table {
 
  .table-button {
     padding: 15px 30px;
-    font-weight:500;
+    font-weight:600;
     font-size: 16px;
     background-color: #C6E4D6;
     border: 1px solid rgba(14, 14, 14, 1);
@@ -313,6 +350,13 @@ table {
     margin-top: auto;
  }
 
+ .recent-btn:hover{
+  background-color: lightgreen;
+  cursor: pointer;
+  color: black;
+  transition: .7s;
+ }
+
  .recent-news-image{
     border-radius: 24px;
  }
@@ -345,6 +389,11 @@ table {
     padding: 10px 20px;
     margin: auto;
     width: 50%;
+ }
+
+ .donate-details:hover{
+  background-color: green;
+  cursor: pointer;
  }
 
  .donate-color{
@@ -382,6 +431,7 @@ table {
  .subscribe-input{
     font-size: 16px;
     text-align:left;
+    color: rgba(14, 14, 14, 0.3);
     box-shadow:0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 8px 0 0 8px;
     background-color: white;
@@ -390,6 +440,7 @@ table {
     padding: 8px 20px;
     border: none;
     margin-right: 0;
+    margin-bottom: 24px;
  }
 
  .label{
@@ -409,6 +460,13 @@ table {
     margin-left: 0;
  }
 
+ .subscribe-btn:hover{
+  background-color:lightgreen;
+  cursor: pointer;
+  color: black;
+  transition: .7s;
+ }
+
 
  /* footer section  */
 
@@ -417,6 +475,16 @@ table {
     text-align: center;
  }
 
+ .footer-heading{
+  font-weight: bold;
+  font-size: 32px;
+  color:#0E0E0E;
+ }
+
  .footer-icon{
     margin-right:23px;
+ }
+
+ .footer-icon:hover{
+  cursor: pointer;
  }
